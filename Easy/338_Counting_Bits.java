@@ -6,8 +6,7 @@ class Solution {
             while(num!=0){
                 result[i]++;
                 num&=num-1;
-            }
-            
+            }    
         }
         return result;
     }
